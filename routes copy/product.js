@@ -1,6 +1,6 @@
 var express = require("express");
 var router = express.Router();
-var StudentModel = require("../models/student");
+var StudentModel = require("../models/user");
 const jwt = require("jsonwebtoken");
 const { verify } = require("jsonwebtoken");
 const req = require("express/lib/request");
